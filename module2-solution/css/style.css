@@ -14,7 +14,7 @@ p {
 .row { width: 100%; }
 
 .title {
-	position: relative;
+	position: absolute;
 	background-color: lightblue;
 	padding: 5px;
 	padding-right: 15px;
