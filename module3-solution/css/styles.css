@@ -1,0 +1,33 @@
+.container-fluid .page-title {
+    font-size: x-large;
+    margin: 20px auto 20px;
+}
+
+.container-fluid .information {
+    color: cornsilk;
+    padding: 20px 10px 20px;
+    margin: 0px 25px 0px;
+}
+
+.container-fluid .section-title {
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+
+/* Desktop and Tablet View */
+
+@media (min-width: 576px) {
+    .navbar .navbar-nav {
+        display: none;
+    }
+}
+
+
+/* Mobile View */
+
+@media (max-width: 575px) {
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+}
